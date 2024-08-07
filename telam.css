@@ -21,10 +21,9 @@
 
 }
 
-/*primeira tela g*/
+/*terceira tela m tela */
 
-@media screen and (min-width:1210px) and (max-width:1280px){
-    
+@media screen and (min-width:933px) and (max-width:1135px) {
     header{font-family: 'F1', Arial, Helvetica, sans-serif;
         background-color: rgba(255, 255, 255, 0.87);
         height: 15vh;
@@ -38,19 +37,19 @@
     
     }
     
-    div#logo > img{width: 180px;
-                height: 90px;
-                padding-left: 10px;
+    div#logo > img{width: 160px;
+                height: 80px;
+                padding-left: 8px;
     
     }
     
-    header menu > ul > li{list-style-type: none;
+    header > menu > ul > li{list-style-type: none;
                     display: inline-block;
-                    margin-right: 25px;
+                    margin-right: 15px;
                     color: #EE2A26;
-                    margin-left: 50px;
+                    margin-left: 20px;
                     margin-top: 50px;
-                    font-size: 0.9em;
+                    font-size: 0.75em;
                     transition: 0.5s;
     
     }
@@ -73,7 +72,7 @@
         border: 1px solid #EE2A26;
         border-radius: 0px 20px 0px 0px;
         background-color: rgba(128, 128, 128, 0.432);
-        margin-left: 25px ;
+        margin-left: 12px ;
     
     }
 
@@ -81,7 +80,7 @@
 
     }
 
-    main{background-image: url(img/f1l6.jpeg);
+    main{background-image: url(img/f1l.jpeg);
         height: 75vh;
         width: 100vw;
         background-size: cover;
@@ -100,15 +99,14 @@
     }
 
     main > div#f1m > h1{font-family: 'F1R', Arial, Helvetica, sans-serif;
-        color: white;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.699);
+        color: #EE2A26;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.87);
         margin-bottom: 10px;
 
     }
 
     main > div#f1m > p{font-family: 'F1R', Arial, Helvetica, sans-serif;
-        color: white;
-        background-color: #EE2A26;
+        background-color: white;
         padding: 20px 10px 20px 10px ;
         border-radius: 40px 8px 8px 30px;
         transition: 0.8s;
@@ -120,8 +118,9 @@
 
     }
 
-    main > div#f1m > p > a{color: white;
+    main > div#f1m > p > a{color: #EE2A26;
         text-decoration: none;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
 
     }
 
@@ -130,11 +129,13 @@
         box-shadow: 1px 1px 10px black;
         font-family: 'F1R', Arial, Helvetica, sans-serif;
         color: #EE2A26;
+        font-size: 0.8em;
 
     }
 
     div#h{background-color: #1e1e24;
             width: 200px;
+            height: 100%;
             border-right: 1px solid white;
             display: inline-block;
 
